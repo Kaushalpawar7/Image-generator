@@ -2,7 +2,7 @@ import tkinter as tk
 import customtkinter as ctk
 
 from PIL import Image, ImageTk
-from authtoken import auth_token  # Replace with your authentication token
+from authtoken import auth_token  
 
 import torch
 from diffusers import StableDiffusionPipeline
